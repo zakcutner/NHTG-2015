@@ -31,58 +31,6 @@ section {
     }
 }
 
-aside {
-    position: absolute;
-    bottom: 64px;
-    top: 0;
-    right: 0;
-    width: 500px;
-    opacity: 0.6;
-    z-index: 100;
-    background-color: #FFF;
-    text-align: center;
-
-    h1 {
-        font-family: "Roboto Slab";
-        font-weight: 100;
-        width: 100%;
-        font-size: 16px;
-        background-color: #d64541;
-        color: #fff;
-        padding: 10px 0;
-        margin-bottom: 40px;
-    }
-
-    #death {
-        display: inline-block;
-        vertical-align: middle;
-        margin-left: 20px;
-        border: 2px solid #d64541;
-        border-radius: 6px;
-        width: 60%;
-
-        #stat {
-            display: block;
-            font-family: "Roboto Slab";
-            width: 100%;
-            font-size: 75px;
-            color: #d64541;
-            padding: 8px 0;
-        }
-
-        #caption {
-            font-family: "Roboto Slab";
-            display: block;
-            font-weight: 700;
-            width: 100%;
-            font-size: 18px;
-            background-color: #d64541;
-            color: #fff;
-            padding: 15px 0;
-        }
-    }
-}
-
 footer {
     position: absolute;
     bottom: 0;
@@ -102,7 +50,7 @@ footer {
         width: 90px;
         font-family: "Roboto Slab", sans-serif;
         font-size: 18px;
-        text-align: center
+        text-align: center;
     }
 
     .nstSlider {
