@@ -18,43 +18,96 @@ body {
     font-weight: 100;
 }
 
-#register {
-    display: table;
-    background-color: #6C7A89;
-    height: 100%;
+section {
     width: 100%;
+    height: 100%;
 
-    form {
-        display: table-cell;
+    img {
+        position: absolute;
+        top: 40px;
+        left: 40px;
+        opacity: 0.6;
+        z-index: 100;
+    }
+}
+
+aside {
+    position: absolute;
+    bottom: 64px;
+    top: 0;
+    right: 0;
+    width: 500px;
+    opacity: 0.6;
+    z-index: 100;
+    background-color: #FFF;
+    text-align: center;
+
+    h1 {
+        font-family: "Roboto Slab";
+        font-weight: 100;
+        width: 100%;
+        font-size: 16px;
+        background-color: #d64541;
+        color: #fff;
+        padding: 10px 0;
+        margin-bottom: 40px;
+    }
+
+    #death {
+        display: inline-block;
         vertical-align: middle;
+        margin-left: 20px;
+        border: 2px solid #d64541;
         border-radius: 6px;
-        overflow: hidden;
-        text-align: center;
+        width: 60%;
 
-        input, button {
+        #stat {
             display: block;
-            margin: 0 auto;
-            padding: 40px;
-            width: 600px;
-            background-color: rgba(0, 0, 0, 0.2);
-            outline: 0;
-            border: 0;
-            //border: 1px solid #FFF;
-            color: #FFF;
-            font-family: "Roboto";
-            font-weight: 100;
-            font-size: 22px;
+            font-family: "Roboto Slab";
+            width: 100%;
+            font-size: 75px;
+            color: #d64541;
+            padding: 8px 0;
         }
 
-        button {
-            display: inline-block;
-            width: 300px;
-            cursor: pointer;
-            background-color: #FFF;
-            color: #6C7A89;
-            font-size: 28px;
-            margin: 0 -2px;
+        #caption {
+            font-family: "Roboto Slab";
+            display: block;
+            font-weight: 700;
+            width: 100%;
+            font-size: 18px;
+            background-color: #d64541;
+            color: #fff;
+            padding: 15px 0;
         }
+    }
+}
 
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.6;
+    z-index: 100;
+    background-color: #fff;
+    text-align: left;
+
+    #year {
+        display: inline-block;
+        vertical-align: middle;
+        background-color: #d64541;
+        color: #fff;
+        padding: 20px 0;
+        width: 90px;
+        font-family: "Roboto Slab", sans-serif;
+        font-size: 18px;
+        text-align: center
+    }
+
+    .nstSlider {
+        display: inline-block;
+        vertical-align: middle;
+        margin: 20px 25px;
     }
 }
