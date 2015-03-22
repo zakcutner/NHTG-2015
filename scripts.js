@@ -50,6 +50,7 @@ $('.nstSlider').nstSlider({
         if(year >= 2010) election = 2010;
 
         $('#year').text(year);
+        //map.clearLayers();
         L.geoJson(localAuthorities, {style: style}).addTo(map);
     }
 });
